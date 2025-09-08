@@ -31,7 +31,8 @@ dependencies {
     implementation project(':capacitor-secure-storage-plugin')
     implementation project(':air:SubModules:AirAsFramework')
     debugImplementation libs.leakcanary.android
-
+    implementation project(':air:SubModules:AirAsFramework')
+    debugImplementation libs.leakcanary.android
 }
 
 
